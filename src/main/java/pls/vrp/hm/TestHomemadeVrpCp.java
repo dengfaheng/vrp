@@ -34,7 +34,7 @@ public class TestHomemadeVrpCp {
     final int numCities = 1000;
 
 //    File f = new File("../vrptests/r210_1.txt");
-    File f = new File("../vrptests/rc110_1.txt");
+    File f = new File("./problems/c1_2_1.txt");
 //    File f = new File("../vrptests/r1.txt");
     VrpProblem problem = VrpReader.readSolomon(f, numCities);
     //seems like more for the first two and less for the last works
